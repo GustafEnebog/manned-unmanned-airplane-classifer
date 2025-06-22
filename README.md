@@ -750,8 +750,33 @@ Introductory text
 
 
 ## Dataset Content - OPTIONAL
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size and to have a shorter model training time. If you are doing an image recognition project, we suggest you consider using an image shape that is 100px × 100px or 50px × 50px, to ensure the model meets the performance requirement but is smaller than 100Mb for a smoother push to GitHub. A reasonably sized image set is ~5000 images, but you can choose ~10000 lines for numeric or textual data. 
+* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size and to have a shorter model training time. If you are doing an image recognition project, we suggest you consider using an image shape that is 100px × 100px or 50px × 50px, to ensure the model meets the performance requirement but is smaller than 100Mb for a smoother push to GitHub. A reasonably sized image set is ~5000 images, but you can choose ~10000 lines for numeric or textual data.
 
+
+| Name                | Wingspan (m) | Max Speed (km/h) | Weight (kg) | Label (Drone=0, Manned=1) |
+|---------------------|---------------|-------------------|-------------|----------------------------|
+| DJI Phantom         | 0.35          | 60                | 1.2         | 0                          |
+| Parrot Anafi        | 0.34          | 55                | 0.3         | 0                          |
+| Autel Evo           | 0.42          | 70                | 1.1         | 0                          |
+| Skydio 2            | 0.4           | 58                | 0.9         | 0                          |
+| DJI Inspire         | 0.7           | 94                | 3.4         | 0                          |
+| Bayraktar TB2       | 12            | 220               | 650         | 0                          |
+| MQ-9 Reaper         | 20            | 480               | 2220        | 0                          |
+| Global Hawk         | 39.9          | 630               | 14600       | 0                          |
+| X-47B (stealth)     | 19            | 1100              | 20400       | 0                          |
+| FakeDrone9000       | 15            | 350               | 5000        | 0  <-- looks like a manned |
+| Cessna 172          | 11            | 226               | 1111        | 1                          |
+| Piper PA-28         | 10.7          | 230               | 1157        | 1                          |
+| Beechcraft King     | 17.6          | 540               | 5670        | 1                          |
+| Boeing 737          | 35.8          | 850               | 41413       | 1                          |
+| F-16 Falcon         | 9.45          | 2400              | 12000       | 1                          |
+| Boeing 747          | 68            | 988               | 183500      | 1                          |
+| Diamond DA40        | 11.6          | 285               | 1150        | 1                          |
+| Cirrus SR22         | 11.7          | 338               | 1542        | 1                          |
+| Gulfstream G650     | 30.4          | 956               | 45000       | 1                          |
+| StealthTrainerX     | 14.8          | 375               | 4900        | 1  <-- looks like a drone  |
+
+[![Image](images_readme/data-set-features.png)](images_readme/data-set-features.png)
 
 ## Business Requirements - OBLIGATORY
 * Describe your business requirements
