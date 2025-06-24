@@ -778,6 +778,29 @@ Introductory text
 
 [![Image](images_readme/data-set-features.png)](images_readme/data-set-features.png)
 
+| Name                  | Wingspan (m) | MaxSpeed (km/h) | Weight (kg) | Label (WWI=0, WWII=1) |
+|-----------------------|---------------|------------------|--------------|------------------------|
+| Sopwith Camel         | 8.5           | 185              | 420          | 0                      |
+| Fokker Dr.I           | 7.2           | 185              | 410          | 0                      |
+| SPAD S.XIII           | 8.1           | 210              | 500          | 0                      |
+| Albatros D.Va         | 9.0           | 190              | 470          | 0                      |
+| Nieuport 17           | 8.2           | 177              | 400          | 0                      |
+| Airco DH.2            | 8.6           | 150              | 520          | 0                      |
+| Bristol F.2 Fighter   | 11.9          | 198              | 660          | 0                      |
+| Royal Aircraft Factory S.E.5 | 8.1    | 220              | 640          | 0                      |
+| Halberstadt CL.II     | 10.6          | 165              | 560          | 0                      |
+| Fieseler Fi 156       | 14.3          | 175              | 920          | 0                      | ← borderline
+| Messerschmitt Bf 109  | 9.9           | 640              | 2800         | 1                      |
+| Supermarine Spitfire  | 11.2          | 594              | 2950         | 1                      |
+| P-51 Mustang          | 11.3          | 700              | 3400         | 1                      |
+| Focke-Wulf Fw 190     | 10.5          | 685              | 3200         | 1                      |
+| Hawker Hurricane      | 12.2          | 547              | 2950         | 1                      |
+| Yakovlev Yak-3        | 9.2           | 655              | 2700         | 1                      |
+| Macchi C.202          | 11.0          | 600              | 2800         | 1                      |
+| Mitsubishi A6M Zero   | 12.0          | 533              | 2400         | 1                      |
+| Lavochkin La-5        | 9.8           | 648              | 3100         | 1                      |
+| Fairey Firefly        | 13.5          | 509              | 4100         | 1                      |
+
 ## Business Requirements - OBLIGATORY
 * Describe your business requirements
 
